@@ -1,26 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+  display: flex;
   height: 100vh;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
 img {
   width: 600px;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
 button {
-  font-family: Roboto, sans-serif;
+  font-family: 'Times New Roman', Times, serif sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px 10px;
+  margin: 0px 2px;
 }
+
 
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin: 10px;
+  justify-content: center;}
+
+.input {
+  display: flex;
+  justify-content: center;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-links, .right-links
+{
+  display: flex;
+  gap: 10px; 
+}
+
+.content { 
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(95, 95, 95);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
